@@ -29,7 +29,8 @@ public class Playlist {
 
     @Column(name = "rules", columnDefinition = "TEXT")
     private String rules;
-
+    @Column(name = "status")
+    private int status;
     @Column(name = "created_at", nullable = false)
     private LocalDateTime createdAt;
 
