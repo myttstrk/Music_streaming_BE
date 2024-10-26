@@ -61,12 +61,6 @@ public class MessageKeys {
     public static final String RESET_PASSWORD_SUCCESS = "reset.password.success";
     public static final String RESET_PASSWORD_FAILED = "reset.password.failed";
 
-    public static final String CREATE_ORDER_SUCCESS = "order.create.successfully";
-    public static final String CREATE_ORDER_FAILED = "order.create.failed";
-    public static final String CREATE_ORDER_DETAILS_FAILED = "order_details.create.failed";
-    public static final String CREATE_ORDER_DETAILS_SUCCESS = "order_details.create.success";
-    public static final String CREATE_PRODUCT_SUCCESS = "product.create.successfully";
-    public static final String CREATE_PRODUCT_FAILED = "product.create.failed";
     public static final String CREATE_CATEGORIES_SUCCESS = "category.create.successfully";
     public static final String CREATE_CATEGORIES_FAILED = "category.create.failed";
     public static final String UPDATE_CATEGORIES_SUCCESS = "category.update.successfully";
@@ -85,6 +79,10 @@ public class MessageKeys {
 
     //SONG
     public static final String DELETE_SONG_SUCCESS = "song.delete.successfully";
+
+    //ALBUM
+    public static final String NAME_FIELD_EMPTY= "name.field.empty";
+    public static final String ALBUM_CREATED_SUCCESS= "album.created.success";
 
 
     public static final String APP_AUTHORIZATION_403 = "app.authorization.403";

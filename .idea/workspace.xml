@@ -5,14 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed79053f-50cb-4596-af55-5e45aeeec65e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/services/PlaylistService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/components/InitializeStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/repositories/AlbumSongRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/repositories/ArtistRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/musicstreaming/models/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/models/Playlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/musicstreaming/repositories/AlbumRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/repositories/AlbumRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/musicstreaming/controllers/AlbumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/controllers/AlbumController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/musicstreaming/controllers/SongController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/controllers/SongController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/musicstreaming/filters/JwtTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/filters/JwtTokenFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/musicstreaming/services/AlbumService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/services/AlbumService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/controllers/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/controllers/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/musicstreaming/mapper/UserMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/musicstreaming/mapper/UserMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/musicstreaming/services/impl/AlbumImplService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/services/impl/AlbumImplService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/musicstreaming/services/impl/SongsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/services/impl/SongsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/musicstreaming/utils/MessageKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/utils/MessageKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/controllers/AlbumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/controllers/AlbumController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/controllers/SongController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/controllers/SongController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/filters/JwtTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/filters/JwtTokenFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/models/Playlist$PlaylistBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/models/Playlist$PlaylistBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/models/Playlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/models/Playlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/services/AlbumService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/services/AlbumService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/services/impl/AlbumImplService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/services/impl/AlbumImplService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/services/impl/SongsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/services/impl/SongsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/utils/MessageKeys.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/utils/MessageKeys.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +37,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Interface" />
       </list>
     </option>
@@ -57,13 +70,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/Project/musicstreaming/Music_streaming_BE"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Project/musicstreaming/Music_streaming_BE&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,5 +98,27 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/musicstreaming/services/impl/AlbumImplService.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/musicstreaming/services/impl/AlbumImplService.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/musicstreaming/models/Album.java</url>
+          <line>37</line>
+          <properties field="updatedAt" class="com.musicstreaming.models.Album" />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

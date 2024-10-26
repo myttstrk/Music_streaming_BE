@@ -3,6 +3,7 @@ package com.musicstreaming.services.impl;
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.cloud.storage.*;
 import com.google.common.collect.Lists;
+import com.musicstreaming.components.InitializeStorage;
 import com.musicstreaming.models.Song;
 import com.musicstreaming.repositories.SongRepository;
 import com.musicstreaming.responses.user.SongResponse;
@@ -29,7 +30,7 @@ public class SongsServiceImpl implements GoogleCloudStorageService {
                             @Value("${gcp.bucket.name}") String bucketName) {
         this.songRepository = songRepository;
         this.bucketName = bucketName;
-        this.storage = initializeStorage(credentialsPath);
+        this.storage = InitializeStorage.initializeStorage(credentialsPath);
     }
 
     private Storage initializeStorage(String credentialsPath) {

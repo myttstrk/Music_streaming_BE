@@ -103,6 +103,9 @@ public class JwtTokenFilter extends OncePerRequestFilter {
 
 //                Pair.of("/api/v1/songs/deleteSong", "GET"),
 
+                //album
+                Pair.of("/api/v1/albums/createNewAlbum", "POST"),
+
 
 
                 // sagger-ui
