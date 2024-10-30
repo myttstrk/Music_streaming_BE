@@ -29,7 +29,7 @@ public class Playlist {
 
     @Column(name = "rules", columnDefinition = "TEXT")
     private String rules;
-    @Column(name = "status")
+    @Column(name = "status",nullable = false)
     private int status;
     @Column(name = "created_at", nullable = false)
     private LocalDateTime createdAt;
@@ -40,4 +40,5 @@ public class Playlist {
     @ManyToOne
     @JoinColumn(name = "folder_id", nullable = false)
     private PlaylistFolder folder;
+
 }

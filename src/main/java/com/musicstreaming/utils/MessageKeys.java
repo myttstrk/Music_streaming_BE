@@ -83,6 +83,8 @@ public class MessageKeys {
     //ALBUM
     public static final String NAME_FIELD_EMPTY= "name.field.empty";
     public static final String ALBUM_CREATED_SUCCESS= "album.created.success";
+    public static final String ALBUM_ADDED_SONGS_SUCCESS= "album.added.success";
+    public static final String ALBUM_SONG_EMPTY = "album.song.empty";
 
 
     public static final String APP_AUTHORIZATION_403 = "app.authorization.403";

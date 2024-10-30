@@ -19,28 +19,30 @@ public class Comment extends BaseEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    // Nhiều comment có thể thuộc về một bài hát (Many-to-One)
+
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "songID", nullable = false) // Sửa thành "songID" theo cột trong bảng database
+    @JoinColumn(name = "songID", nullable = false)
     private Song song;
 
-    // Nhiều comment có thể thuộc về một người dùng (Many-to-One)
+
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "userID", nullable = false)
     private User user;
 
-    // Nội dung của comment
+
     @Column(columnDefinition = "TEXT", nullable = false)
     private String content;
 
-    // Thời gian tạo comment
+
     @Column(name = "createdAt", nullable = false)
     private LocalDateTime createdAt;
 
-    // Thời gian cập nhật comment
+
     @Column(name = "updatedAt", nullable = false)
     private LocalDateTime updatedAt;
 
+    @Column(name = "parentCommentID")
+    private int parentCommentId;
 
     // Lưu lại thời gian tạo và cập nhật trước khi lưu vào database
     @PrePersist

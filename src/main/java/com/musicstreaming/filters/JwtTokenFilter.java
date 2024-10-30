@@ -94,6 +94,7 @@ public class JwtTokenFilter extends OncePerRequestFilter {
                 Pair.of("/api/v1/users/getAllSongs", "GET"),
                 Pair.of("/api/v1/users/upload", "POST"),
                 Pair.of("/api/v1/users/getAllCategories", "GET"),
+                Pair.of("/test-redis", "GET"),
 
 
                 //song
