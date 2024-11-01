@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 public class Setting {
 
     @Id
-    @Column(name = "key", nullable = false)
+    @Column( nullable = false)
     private String key;
 
     @Column(name = "value", columnDefinition = "TEXT", nullable = false)

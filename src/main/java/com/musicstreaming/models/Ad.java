@@ -6,6 +6,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import jakarta.persistence.*;
+
+import java.math.BigInteger;
 import java.time.LocalDateTime;
 
 @Data
@@ -18,7 +20,7 @@ public class Ad {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long     id;
 
     @Column(name = "AdTitle", nullable = false, length = 255)
     private String adTitle;

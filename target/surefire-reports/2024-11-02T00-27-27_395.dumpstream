@@ -1,4 +1,4 @@
-# Created at 2024-11-01T17:19:14.140
+# Created at 2024-11-02T00:27:27.574
 Boot Manifest-JAR contains absolute paths in classpath 'E:\Project\musicstreaming\Music_streaming_BE\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root
