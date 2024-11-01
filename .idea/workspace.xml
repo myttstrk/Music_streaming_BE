@@ -1,25 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="musicstreaming:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed79053f-50cb-4596-af55-5e45aeeec65e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/configurations/JedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/controllers/JedisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/services/RedisCacheService/JedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/musicstreaming_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/musicstreaming/configurations/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/configurations/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/musicstreaming/controllers/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/controllers/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/musicstreaming/filters/JwtTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/filters/JwtTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/musicstreaming/services/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/services/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/musicstreaming/controllers/PlaylistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/controllers/PlaylistController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/musicstreaming/models/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/models/Playlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/musicstreaming/repositories/PlaylistRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/repositories/PlaylistRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/musicstreaming/repositories/PlaylistSongRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/repositories/PlaylistSongRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/musicstreaming/services/PlaylistService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/services/PlaylistService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/musicstreaming/services/impl/PlaylistImplService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/musicstreaming/services/impl/PlaylistImplService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/configurations/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/configurations/RedisConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/controllers/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/controllers/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/filters/JwtTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/filters/JwtTokenFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/services/RedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/services/RedisService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/controllers/PlaylistController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/controllers/PlaylistController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/models/Playlist$PlaylistBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/models/Playlist$PlaylistBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/models/Playlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/models/Playlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/repositories/PlaylistRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/repositories/PlaylistRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/repositories/PlaylistSongRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/repositories/PlaylistSongRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/services/PlaylistService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/services/PlaylistService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/musicstreaming/services/impl/PlaylistImplService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/musicstreaming/services/impl/PlaylistImplService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/musicstreaming/mapper/UserMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/musicstreaming/mapper/UserMapperImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,10 +81,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "E:/Project/musicstreaming/Music_streaming_BE",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.1515625",
+    "project.structure.side.proportion": "0.29438823",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -81,6 +93,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Project\musicstreaming\Music_streaming_BE" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="MusicstreamingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">

@@ -1,26 +1,14 @@
-# Sử dụng image chính thức của Maven để build project
-FROM maven:3.8.5-openjdk-17 AS build
-
-# Thiết lập thư mục làm việc trong container
-WORKDIR /app
-
-# Copy toàn bộ project vào container
-COPY . .
-
-# Build project và tạo file JAR
-RUN mvn clean package -DskipTests
-
-# Tạo image cuối cùng sử dụng OpenJDK để chạy file JAR
+# Sử dụng image OpenJDK chính thức làm base image
 FROM openjdk:17-jdk-slim
 
-# Tạo thư mục để chứa ứng dụng
-WORKDIR /app
+# Đặt biến môi trường cho đường dẫn đến file JAR
+ARG JAR_FILE=target/musicstreaming-0.0.1-SNAPSHOT.jar
 
-# Copy file JAR từ giai đoạn build vào thư mục làm việc của image
-COPY --from=build /app/target/*.jar app.jar
+# Sao chép file JAR từ máy local vào Docker image
+COPY ${JAR_FILE} app.jar
 
-# Expose port của ứng dụng nếu cần
+# Expose cổng mà ứng dụng sẽ chạy
 EXPOSE 8080
 
-# Lệnh để chạy ứng dụng
-ENTRYPOINT ["java", "-jar", "app.jar"]
+# Lệnh để chạy ứng dụng Spring Boot
+ENTRYPOINT ["java", "-jar", "/app.jar"]

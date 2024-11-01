@@ -36,6 +36,8 @@ public class Playlist {
 
     @Column(name = "updated_at", nullable = false)
     private LocalDateTime updatedAt;
+    @Column(name = "share_token", length = 36)
+    private String shareToken;
 
     @ManyToOne
     @JoinColumn(name = "folder_id", nullable = false)
