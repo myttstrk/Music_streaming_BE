@@ -1,0 +1,11 @@
+# Remove existing workflow files if any
+rm -rf .github/workflows/*
+
+# Recreate the workflows directory
+rm -rf .github/workflows
+mkdir -p .github/workflows
+
+# Commit the changes
+git add .github/workflows
+git commit -m "Clean up workflows directory"
+git push
